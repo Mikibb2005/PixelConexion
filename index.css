@@ -3,7 +3,9 @@
     border-color: #ffb9ff;
 
 }
-
+.imagen{
+    margin: 10px;
+}
 .tabla {
     width: 100%;
     border: 1px solid #000;
