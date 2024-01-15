@@ -160,3 +160,16 @@ ol {
   text-align: center;
   margin-bottom: 0%;
 }
+
+.reseña{
+  background-color: #fbe7fd;
+}
+
+.cuadro-relleno{
+  background-color: #ffb9ff;
+}
+
+.titulo_compañia{
+  margin: 0px;
+  padding: 0%;
+}
