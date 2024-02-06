@@ -173,3 +173,24 @@ ol {
   margin: 0px;
   padding: 0%;
 }
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh; /* Establecer la altura de la cuadrícula de imágenes para ocupar toda la altura de la pantalla */
+}
+
+.image-grid a {
+  flex: 0 0 calc(50% - 10px); /* 50% de ancho para cada imagen con un poco de espacio entre ellas */
+  margin: 5px; /* Ajustar el margen según sea necesario */
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+}
+
+.logo {
+  width: 200px; /* Ancho deseado */
+  height: auto; /* Altura se ajusta automáticamente para mantener la relación de aspecto */
+}
